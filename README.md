@@ -17,15 +17,29 @@ Python3, pip
 
 1. Clone the repository
 2. `cd` in the repository
+```
+cd PartRipper
+```
 3. Create a virtual environment 
 ```
 python -m venv venv
 ```
 4. Activate the virtual environment
-    1. For Windows, use ```source venv/Scripts/activate```
-    2. For Unix systems (Mac, Linux), use ```source venv/bin/activate```
-5. Install the requirements ```python -m pip install -r requirements.txt```
-6. Run the main file ```python src/main.py```
+    1. For Windows, use 
+    ```
+    source venv/Scripts/activate
+    ```
+    2. For Unix systems (Mac, Linux), use 
+    ```
+    source venv/bin/activate
+    ```
+5. Install the requirements 
+```
+python -m pip install -r requirements.txt
+```
+6. Run the main file 
+```python src/main.py
+```
 
 Notes: The database used in this repository is not public. In other words, [./src/data_fetch.py](./src/data_fetch.py) needs to be customized for the program to work.
 
