@@ -12,8 +12,7 @@ This repository is a proof of concept for the PartRipper idea proposed in Tech59
 
 Requirements:
 
-Python3
-pip
+Python3, pip
 
 
 1. Clone the repository
