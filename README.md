@@ -17,7 +17,8 @@ Python3, pip
 
 1. Clone the repository
 2. `cd` in the repository
-3. Create a virtual environment ```python -m venv venv```
+3. Create a virtual environment 
+```python -m venv venv```
 4. Activate the virtual environment
     1. For Windows, use ```source venv/Scripts/activate```
     2. For Unix systems (Mac, Linux), use ```source venv/bin/activate```
