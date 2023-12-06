@@ -22,6 +22,8 @@ def get_size(bytes, suffix="B"):
             return f"{bytes:.2f}{unit}{suffix}"
         bytes /= factor
 
+
+# Code from https://thepythoncode.com/article/get-hardware-system-information-python#:~:text=CPU%20Information,-Let's%20get%20some&text=psutil's%20cpu_count()%20function,to%20get%20per%20CPU%20frequency.
 def main():
     print("="*40, "System Information", "="*40)
     uname = platform.uname()
