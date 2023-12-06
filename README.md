@@ -38,7 +38,8 @@ python -m venv venv
 python -m pip install -r requirements.txt
 ```
 6. Run the main file 
-```python src/main.py
+```
+python src/main.py
 ```
 
 Notes: The database used in this repository is not public. In other words, [./src/data_fetch.py](./src/data_fetch.py) needs to be customized for the program to work.
